@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog | CAR3S Group</title>
+    <link>https://car3s.github.io/tags/blog/</link>
+      <atom:link href="https://car3s.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Tue, 03 Sep 2019 23:09:48 +0530</lastBuildDate>
+    <image>
+      <url>https://car3s.github.io/img/cars_logo.jpeg</url>
+      <title>blog</title>
+      <link>https://car3s.github.io/tags/blog/</link>
+    </image>
+    
+    <item>
+      <title>My experience with CARS</title>
+      <link>https://car3s.github.io/post/sudhanshu/</link>
+      <pubDate>Tue, 03 Sep 2019 23:09:48 +0530</pubDate>
+      <guid>https://car3s.github.io/post/sudhanshu/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://medium.com/@sudhanshugupta96/my-experience-with-cars-31f12210083e&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Zero to 13 in One Conference</title>
+      <link>https://car3s.github.io/post/aditya_19/</link>
+      <pubDate>Wed, 10 Jul 2019 23:09:38 +0530</pubDate>
+      <guid>https://car3s.github.io/post/aditya_19/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://riyuzakii.github.io/post/isca19/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The ISCA Experience</title>
+      <link>https://car3s.github.io/post/nayan_18/</link>
+      <pubDate>Thu, 12 Jul 2018 23:09:27 +0530</pubDate>
+      <guid>https://car3s.github.io/post/nayan_18/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://ndesh26.github.io/personal/2018/07/12/The-ISCA-Experience/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Snehil Verma – ISCA 2018</title>
+      <link>https://car3s.github.io/post/snehil_18/</link>
+      <pubDate>Sun, 01 Jul 2018 23:08:51 +0530</pubDate>
+      <guid>https://car3s.github.io/post/snehil_18/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://snehilverma.wordpress.com/2018/07/01/snehil-verma-isca-2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to blog&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

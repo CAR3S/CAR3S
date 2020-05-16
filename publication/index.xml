@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | CAR3S Group</title>
+    <link>https://car3s.github.io/publication/</link>
+      <atom:link href="https://car3s.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Tue, 24 Mar 2020 20:53:24 +0530</lastBuildDate>
+    <image>
+      <url>https://car3s.github.io/img/cars_logo.jpeg</url>
+      <title>Publications</title>
+      <link>https://car3s.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Bouquet of Instruction Pointers: Instruction Pointer Classifier-based Spatial Hardware Prefetching</title>
+      <link>https://car3s.github.io/publication/isca2020/</link>
+      <pubDate>Tue, 24 Mar 2020 20:53:24 +0530</pubDate>
+      <guid>https://car3s.github.io/publication/isca2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fooling The Sense of Cross-core Last-level Cache Eviction Based Attacker By Prefetching Common Sense</title>
+      <link>https://car3s.github.io/publication/pact19/</link>
+      <pubDate>Tue, 20 Aug 2019 21:25:30 +0530</pubDate>
+      <guid>https://car3s.github.io/publication/pact19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Sharp is SHARP?</title>
+      <link>https://car3s.github.io/publication/woot19/</link>
+      <pubDate>Sat, 03 Aug 2019 13:19:20 +0530</pubDate>
+      <guid>https://car3s.github.io/publication/woot19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWLight: Hardware Assisted Copy-On-Write Fault Handling for Secure Deduplication</title>
+      <link>https://car3s.github.io/publication/hasp_isca2019/</link>
+      <pubDate>Sun, 23 Jun 2019 17:51:09 +0530</pubDate>
+      <guid>https://car3s.github.io/publication/hasp_isca2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STEVES: Pushing the Limits of Value Predictors with Sliding FCM and EVES</title>
+      <link>https://car3s.github.io/publication/cvp_isca20xx/</link>
+      <pubDate>Wed, 10 Apr 2019 17:51:19 +0530</pubDate>
+      <guid>https://car3s.github.io/publication/cvp_isca20xx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DFCM&#43;&#43;: Augmenting DFCM with Early Update and Data Dependence-driven Value Estimation</title>
+      <link>https://car3s.github.io/publication/cvp_isca18/</link>
+      <pubDate>Tue, 03 Apr 2018 13:22:17 +0530</pubDate>
+      <guid>https://car3s.github.io/publication/cvp_isca18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
