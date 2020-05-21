@@ -5,12 +5,20 @@
     <link>https://car3s.github.io/publication_types/1/</link>
       <atom:link href="https://car3s.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Tue, 24 Mar 2020 20:53:24 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Thu, 21 May 2020 12:49:44 +0530</lastBuildDate>
     <image>
       <url>https://car3s.github.io/img/cars_logo.jpeg</url>
       <title>1</title>
       <link>https://car3s.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Run-Jump-Run: Bouquet of Instruction Pointer Jumpers for High Performance Instruction Prefetching</title>
+      <link>https://car3s.github.io/publication/ipc1_isca2020/</link>
+      <pubDate>Thu, 21 May 2020 12:49:44 +0530</pubDate>
+      <guid>https://car3s.github.io/publication/ipc1_isca2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bouquet of Instruction Pointers: Instruction Pointer Classifier-based Spatial Hardware Prefetching</title>
