@@ -5,12 +5,20 @@
     <link>https://car3s.github.io/publication/</link>
       <atom:link href="https://car3s.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Thu, 21 May 2020 12:49:44 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Sat, 11 Jul 2020 12:49:44 +0530</lastBuildDate>
     <image>
       <url>https://car3s.github.io/img/cars_logo.jpeg</url>
       <title>Publications</title>
       <link>https://car3s.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Reverse Engineering the Stream Prefetcher for Profit</title>
+      <link>https://car3s.github.io/publication/eurosnp_2020/</link>
+      <pubDate>Sat, 11 Jul 2020 12:49:44 +0530</pubDate>
+      <guid>https://car3s.github.io/publication/eurosnp_2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Run-Jump-Run: Bouquet of Instruction Pointer Jumpers for High Performance Instruction Prefetching</title>

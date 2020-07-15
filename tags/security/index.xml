@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CAR3S Group</title>
-    <link>https://car3s.github.io/authors/aditya/</link>
-      <atom:link href="https://car3s.github.io/authors/aditya/index.xml" rel="self" type="application/rss+xml" />
-    <description>CAR3S Group</description>
+    <title>Security | CAR3S Group</title>
+    <link>https://car3s.github.io/tags/security/</link>
+      <atom:link href="https://car3s.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <description>Security</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Sat, 11 Jul 2020 12:49:44 +0530</lastBuildDate>
     <image>
       <url>https://car3s.github.io/img/cars_logo.jpeg</url>
-      <title>CAR3S Group</title>
-      <link>https://car3s.github.io/authors/aditya/</link>
+      <title>Security</title>
+      <link>https://car3s.github.io/tags/security/</link>
     </image>
     
     <item>
@@ -18,16 +18,6 @@
       <pubDate>Sat, 11 Jul 2020 12:49:44 +0530</pubDate>
       <guid>https://car3s.github.io/publication/eurosnp_2020/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>From Zero to 13 in One Conference</title>
-      <link>https://car3s.github.io/post/aditya_19/</link>
-      <pubDate>Wed, 10 Jul 2019 23:09:38 +0530</pubDate>
-      <guid>https://car3s.github.io/post/aditya_19/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://riyuzakii.github.io/post/isca19/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to blog&lt;/a&gt;&lt;/p&gt;
-</description>
     </item>
     
   </channel>

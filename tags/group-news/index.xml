@@ -5,12 +5,37 @@
     <link>https://car3s.github.io/tags/group-news/</link>
       <atom:link href="https://car3s.github.io/tags/group-news/index.xml" rel="self" type="application/rss+xml" />
     <description>Group News</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Sun, 15 Mar 2020 16:02:21 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>All rights reserved, 2020</copyright><lastBuildDate>Wed, 15 Jul 2020 16:02:21 +0530</lastBuildDate>
     <image>
       <url>https://car3s.github.io/img/cars_logo.jpeg</url>
       <title>Group News</title>
       <link>https://car3s.github.io/tags/group-news/</link>
     </image>
+    
+    <item>
+      <title>July, 2020 update</title>
+      <link>https://car3s.github.io/post/jul_20/</link>
+      <pubDate>Wed, 15 Jul 2020 16:02:21 +0530</pubDate>
+      <guid>https://car3s.github.io/post/jul_20/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://car3s.github.io/dabangg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DABANGG Attack&lt;/a&gt; is live!&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://car3s.github.io/authors/tarun&#34;&gt;Tarun&lt;/a&gt; and 
+&lt;a href=&#34;https://car3s.github.io/authors/mriganka/&#34;&gt;Mriganka&lt;/a&gt; joined CAR3S. Welcome!&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://car3s.github.io/authors/vishal/&#34;&gt;Vishal&lt;/a&gt;, 
+&lt;a href=&#34;https://car3s.github.io/authors/neelu/&#34;&gt;Neelu&lt;/a&gt;, and 
+&lt;a href=&#34;https://car3s.github.io/authors/biswa/&#34;&gt;Biswa&lt;/a&gt;&amp;lsquo;s work, 
+&lt;a href=&#34;https://car3s.github.io/publication/ipc1_isca2020/&#34;&gt;Run-Jump-Run&lt;/a&gt; accepted at First Instruction Prefetching Championship Workshop, co-located with 47th ISCA Conference, 2020.&lt;/li&gt;
+&lt;li&gt;Unrestricted research gift from Qualcomm Technologies for research on &amp;ldquo;efficient memory subsystems for mobile computing platforms&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://car3s.github.io/authors/aditya/&#34;&gt;Aditya&lt;/a&gt; and 
+&lt;a href=&#34;https://car3s.github.io/authors/biswa/&#34;&gt;Biswa&amp;rsquo;s&lt;/a&gt; work on 
+&lt;a href=&#34;https://car3s.github.io/publication/eurosnp_2020/&#34;&gt;Reverse Engineering the Stream Prefetcher&lt;/a&gt; accepted at SILM Workshop at 5th EuroS&amp;amp;P Conference, 2020.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>March, 2020 update</title>
