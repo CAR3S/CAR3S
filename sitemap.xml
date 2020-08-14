@@ -7,10 +7,6 @@
   </url>
   
   <url>
-    <loc>https://car3s.github.io/authors/bhargav/</loc>
-  </url>
-  
-  <url>
     <loc>https://car3s.github.io/gallery/</loc>
   </url>
   
@@ -76,10 +72,7 @@
   
   <url>
     <loc>https://car3s.github.io/authors/anish/</loc>
-  </url>
-  
-  <url>
-    <loc>https://car3s.github.io/authors/nilay/</loc>
+    <lastmod>2020-06-18T12:49:44+05:30</lastmod>
   </url>
   
   <url>
@@ -154,6 +147,21 @@
   <url>
     <loc>https://car3s.github.io/tags/security/</loc>
     <lastmod>2020-07-11T12:49:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://car3s.github.io/publication_types/3/</loc>
+    <lastmod>2020-06-18T12:49:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://car3s.github.io/publication/dabangg_2020/</loc>
+    <lastmod>2020-06-18T12:49:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://car3s.github.io/tags/side-channels/</loc>
+    <lastmod>2020-06-18T12:49:44+05:30</lastmod>
   </url>
   
   <url>
