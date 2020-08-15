@@ -656,9 +656,9 @@
     
 
     <p>Our programs run on the abstraction of vast virtual memory which it can access without any worry of the actual physical implementation. The underlying complex system of memory management works as an well oiled machine to keep this illusion going.</p>
-<p>Virtual memory comes at a cost, translation of the virtual address into physical address. TLB&rsquo;s try to reduce the latency of address translation.</p>
+<p>Virtual memory comes at a cost, translation of the virtual address into physical address. TLB’s try to reduce the latency of address translation.</p>
 <p>Virtualization further increases the complexity and latency, program sees virtual memory of guest OS which in turn sees the virtual memory of host OS. Accelerators such as GPU, DSP, etc. share virtual address space with CPU. They also require address translation.</p>
-<p>These challenges make the modern virtual memory implementation an interesting research problem. I am looking into techniques to decrease address translation latency.</p>
+<p>These challenges make the modern virtual memory implementation an interesting research problem. I am looking into techniques to decrease address translation latency. Address translations are stored in main memory. I am trying to ascertain performance impact of storing translations in different levels of cache hierarchy.</p>
 
 
     <div class="row">

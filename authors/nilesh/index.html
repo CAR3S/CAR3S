@@ -672,8 +672,19 @@
     
     
 
-    <p>For every instruction/data fetch, virtual to physical address translation is required. And if it misses in TLB, it has to access main memory N number of times which is equal to the level of page table and this is even worse when we are running our application in VM.</p>
-<p>I am exploring in the area to reduce the latency overhead for the conversion of the virtual to physical address.</p>
+    <p>I am interested in increasing the performance of accelerators. So what is an accelerator? An accelerator is a function specific hardware where you can offload tasks from the CPU to gain performance. Most of the accelerators work on continuous data like arrays.</p>
+<p>To get the data from main memory, accelerators use IOMMU to convert virtual addresses to physical addresses. And this IOMMU is shared among all of the IO devices. So here IOMMU serves as a bottleneck for the performance of accelerators as most of the IO devices are competing for IOMMU.</p>
+<p>Current heterogeneous system architecture (HSA) supports the use of the same address space between cpu and accelerator. Because of this, if more than one accelerators are offloaded by the same CPU then they can share entries in IOMMU.</p>
+<p>By considering all of these properties, I am trying to reduce the time required in the address translation for accelerators by storing intermediate page table entries in the IOMMU.</p>
+<p>If you find this interesting, you can go through following readings:</p>
+<ul>
+<li>Supporting Address Translation for Accelerator-Centric Architectures: 
+<a href="http://web.cs.ucla.edu/~haoyc/pdf/hpca17.pdf" target="_blank" rel="noopener">Link</a></li>
+<li>Architecture and Performance of the Hardware Acceleratorsin IBM’s PowerEN Processor : 
+<a href="https://cseweb.ucsd.edu/classes/wi20/cse232B-a/papers/IBMPowerEN.pdf" target="_blank" rel="noopener">Link</a></li>
+<li>Architecture Support for Accelerator-Rich CMPs: 
+<a href="http://cadlab.cs.ucla.edu/~cong/papers/dac12_01.pdf" target="_blank" rel="noopener">Link</a></li>
+</ul>
 
 
     <div class="row">

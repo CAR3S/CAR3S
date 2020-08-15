@@ -689,14 +689,25 @@
     
     
 
-    <p>Caches play an important role in improving system performance. However, recently caches have become one of the main sources of information leakage. Various attack methodology have been implemented in recent years which are, PRIME + PROBE, FLUSH + RELOAD, FLUSH + FLUSH and many more. They exploit the cache weakness and make the attack possible to execute.</p>
-<p>Caches are also subjected to attacks where cached values are returned faster than uncached values, so an attacker can use response time to gain information about requests that other clients are making.</p>
-<p>As a counter-measure to cache attacks, many software-based defences have been implemented, given their appealing portability and scalability guarantees. There are hardware-based defences also which were used in recent years.</p>
-<p><strong>Goal</strong>: I am trying to make the existing attacks more robust and improve its effectiveness.</p>
-<p><em>&ldquo;ONE SINGLE VULNERABILITY IS ALL AN ATTACKER NEEDS”</em>. I am finding that
-cloying vulnerability.</p>
-<p>Interested reading to start with :</p>
+    <p>Have you ever tried to break the security of the already secured System (an Enclave)? Sounds interesting right? Various attack methodology has been implemented in recent years which are, PRIME + PROBE, FLUSH + RELOAD, FLUSH + FLUSH, Timing attacks, Page fault attacks and many more. They exploit the weakness of the system and make the attack possible to execute.</p>
+<p>Now one question arises in your mind that what is an ENCLAVE? Imagine a scenario if you want to execute some part of the code in the safe environment so that no other can get any information from that, so you put that part on an ENCLAVE and make it secure from outside world. By some means you can access data of enclave. This is enough to make you more curious about the topic. Kindly go through link for more description.</p>
+<p>Like if we take the example of attack on an ENCLAVE, FLUSH+RELOAD is the attack which uses the caches, by cache properties cached values are returned faster than uncached values, so an attacker can use response time to gain information about requests that other clients are making.</p>
+<p><strong>Goal</strong> : I am trying to make the existing attacks more robust and improve its effectiveness on the already secured system (an Enclave).</p>
+<p><em>ONE SINGLE VULNERABILITY IS ALL AN ATTACKER NEEDS</em>. I am finding that cloying vulnerability with less footprints.</p>
+<p>Interested Code and reading to start with :</p>
 <ul>
+<li>
+<p>Intel SGX: 
+<a href="https://software.intel.com/content/www/us/en/develop/topics/software-guard-extensions.html" target="_blank" rel="noopener">Link</a></p>
+</li>
+<li>
+<p>Uncovering and Mitigating side – Channel Leakage int Intel SGX Enclave: 
+<a href="https://people.cs.kuleuven.be/~jo.vanbulck/space18.pdf" target="_blank" rel="noopener">Link</a></p>
+</li>
+<li>
+<p>SGX tutorials: 
+<a href="https://github.com/jovanbulck/sgx-tutorial-space18" target="_blank" rel="noopener">Link</a></p>
+</li>
 <li>
 <p>Flush + Reload: 
 <a href="https://www.usenix.org/node/184416" target="_blank" rel="noopener">Link</a></p>
