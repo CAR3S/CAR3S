@@ -689,11 +689,10 @@
     
     
 
-    <p>Wouldn’t it be great if you could always get a hit in the caches? The processor would never have to wait for longer than the cache latency for any instructions or the corresponding data. Think about how much increase that would bring to the CPU utilization. But, alas, we live in the real world where the cache (especially L1D and L1I) hit rate is not perfect and time and again the processor does get stalled when data requests are served at the latency of the outer level caches (L2 and LLC); and bless the soul of the instruction that suffers a miss in all the levels of the cache and has to go to the memory to get the required instruction and data. What a disaster. This problem is termed as “The Memory Wall Problem” in the world of Computer Architecture.</p>
-<p>What’s my role in all this?</p>
-<p>Instructions and data have separate L1 caches. However, they reside in a unified L2 cache and often conflict with each other. Further, page table blocks that contain translations also reside in the L2 cache, making the L2 cache a hotspot for conflicts especially in workloads (such as can be found 
-<a href="https://drive.google.com/file/d/1qs8t8-YWc7lLoYbjbH_d3lf1xdoYBznf/view?usp=sharing" target="_blank" rel="noopener">here</a>) where the instruction as well as data sets are too large to fit in the private caches. This leads to demand requests going to the LLC many times. I am looking at ways to manage instruction, data and translation blocks at the L2 cache such that the required cache blocks get hits all the time.
-If all this sounds interesting to you, you can check out some of the reading material on state-of-the-art data prefetchers:</p>
+    <p>Wouldn&rsquo;t it be great if you could always get a hit in the L1 cache? The processor would never have to wait for longer than the L1 latency for any data. Think about how much increase that would bring to the CPU utilization. But, alas, we live in the real world where the L1 hit rate is not perfect and time and again the processor does get stalled when data requests are served at the latency of the outer level caches; and bless the soul of the instruction that suffers a miss in all the levels of the cache and has to go to the memory to get the required data. What a disaster. This problem is termed as &ldquo;The Memory Wall Problem&rdquo; in the world of Computer Architecture.</p>
+<p>What&rsquo;s my role in all this?</p>
+<p>The gap between the performance provided by the state-of-the-art L1 prefetchers and the performance of an ideal L1 (with a 100% hit-rate) is still significant. I am studying state-of-the-art L1 prefetchers to understand their limitations, find the potential for improvement and then push their limits to bridge that gap.</p>
+<p>If all this sounds interesting to you, you can check out some of the reading material on state-of-the-art data prefetchers:</p>
 <ul>
 <li>Bouquet of Instruction Pointers: Instruction Pointer Classifier-based Hardware Prefetching: 
 <a href="https://dpc3.compas.cs.stonybrook.edu/pdfs/Bouquet.pdf" target="_blank" rel="noopener">Link</a></li>

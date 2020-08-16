@@ -657,7 +657,7 @@
     
     
 
-    <p>Today&rsquo;s web and server applications are getting increasingly complex with the rich set of features they provide and this leads to their code footprint reaching a few gigabytes in size. This is due to increasingly complex use-cases and a lot of layers of abstractions like dynamic link libraries, system calls, object-oriented programming. This increase in the code footprint increases the L1 instruction cache miss rate, which stalls the CPU for 40% of the execution time.</p>
+    <p>Today&rsquo;s web and server applications are getting increasingly complex with the rich set of features they provide and this leads to their code footprint reaching a few megabytes in size. This is due to increasingly complex use-cases and a lot of layers of abstractions like dynamic link libraries, system calls, object-oriented programming. This increase in the code footprint increases the L1 instruction cache miss rate, which stalls the CPU for 40% of the execution time.</p>
 <p>Prefetching is a technique to bring the memory data into the cache ahead of its use. State of the art instruction prefetchers have been proposed to tackle this problem. However, compared to an L1 instruction cache of size 32KB, these prefetchers require 200-300KB of storage overhead to provide good performance. My work is to reduce this storage overhead and make instruction prefetchers practical to implement in real hardware.</p>
 <p>You can find more information about instruction prefetchers here:</p>
 <ul>
